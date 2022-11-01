@@ -5,7 +5,7 @@ Created using PyCharm IDE on 1st November 2022.
 
 Test sentence: The fat cat beat the fat cat.
 
-This project is divided into 4 phases:
+### This project is divided into 4 phases:
 1. Project initial function is to convert uppercase to lowercase and calculate number of words in a sentence. raw_input() was initially used but is then replaced with input() because there was a problem with it.
 
 2. Code is then expanded to have word frequency function. This leads to the 3rd phase because the real output does not match the expected output.
@@ -38,7 +38,7 @@ The suitable function is by using join + generator function:
   special_characters = ['!', '#', '$', '%', '&', '@', '[', ']', '.', '_', '?', '(', ')', '{', '}', '=', ',']
   converted_sentence = ''.join(filter(lambda i:i not in special_characters, lower_sentence))
 ```
-Below is the full output after code completion:
+### Below is the full output after code completion:
 
   Welcome to the word frequency tracker. All you need to do is input a sentence.
   Please enter a sentence: The fat cat beat the fat cat.
