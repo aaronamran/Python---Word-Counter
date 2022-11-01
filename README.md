@@ -1,8 +1,6 @@
 # Python---Word-Counter
 Created using PyCharm IDE on 1st November 2022.
 
-Author: Aaron Amran
-Creation Date: 01st November 2022
 Project: Create a word frequency tracker from a sentence, which ignores appended special characters on each word, with the exception of spacebar.
 
 Test sentence: The fat cat beat the fat cat.
