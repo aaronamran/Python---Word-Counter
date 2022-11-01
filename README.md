@@ -39,7 +39,7 @@ The suitable function is by using join + generator function:
   converted_sentence = ''.join(filter(lambda i:i not in special_characters, lower_sentence))
 ```
 Below is the full output after code completion:
-
+**
   Welcome to the word frequency tracker. All you need to do is input a sentence.
   Please enter a sentence: The fat cat beat the fat cat.
 
@@ -49,3 +49,4 @@ Below is the full output after code completion:
 
   The following is the word frequency: 
   {'the': 2, 'fat': 2, 'cat': 2, 'beat': 1}
+**
